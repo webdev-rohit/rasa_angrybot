@@ -3,10 +3,9 @@ version: "2.0"
 intents:
   - greet
   - goodbye
-  - affirm
-  - deny
   - mood_great
   - mood_unhappy
+  - mood_angry
   - bot_challenge
 
 responses:
@@ -17,11 +16,11 @@ responses:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
-
   utter_happy:
   - text: "Great, carry on!"
+
+  utter_calm:
+  - text: "Anger is bad for health. Stay calm."
 
   utter_goodbye:
   - text: "Bye"
